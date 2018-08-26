@@ -14,7 +14,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
-import { RouterModule } from '../../node_modules/@angular/router';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
