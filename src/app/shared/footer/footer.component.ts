@@ -10,7 +10,7 @@ export class FooterComponent implements OnInit {
 
 
    anio:number;
-  constructor(private _infoservicio: InfopaginaService) {
+  constructor(public _infoservicio: InfopaginaService) {
     this.anio=new Date().getFullYear();
   }
 

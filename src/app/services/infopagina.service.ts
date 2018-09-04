@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { InfoPagina } from '../interfaces/info-pagina.interface';
-import { Equipo } from '../interfaces/info-equipo.interface';
+
 
 @Injectable({
   providedIn: 'root'
@@ -37,7 +37,7 @@ export class InfopaginaService {
 
 
       this.equipo=resp;
-      console.log(resp);
+
     });
    }
 }

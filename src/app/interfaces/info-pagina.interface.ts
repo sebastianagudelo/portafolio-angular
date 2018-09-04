@@ -5,4 +5,5 @@ export interface InfoPagina {
   autor?: string;
   facebook?: string;
   equipo_trabajo?: any[];
+  twitter?:string;
 }
